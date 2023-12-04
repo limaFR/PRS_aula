@@ -1,0 +1,6 @@
+private int id 
+private int isbn
+private String titulo
+private String Autor
+private String editor
+private double preco 
