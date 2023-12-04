@@ -1,6 +1,24 @@
+
+https://github.com/limaFR
+
 private int id 
 private int isbn
 private String titulo
 private String Autor
 private String editor
 private double preco 
+
+private static List<Livro> listaLivros = new ArrayList<>();
+
+public static void criarLista() {
+listaLivros.add(new Livro (10, 8579621895, "Esconderijos do Tempo", "Mário Quintana", "L&PM", 19.90));
+listaLivros.add(new Livro (11, 8579621607, "A cor do invisível", "Mário Quintana", "Globo", 40.0));
+listaLivros.add(new Livro (12, 859431860X, "Dom Casmurro", "Machado de Assis", "Principis", 22.0));
+listaLivros.add(new Livro (13, 8535931988, "Grande Sertão: Veredas", "Guimarães Rosa", "Companhia das Letras", 49.90));
+
+git remote add origin link da URL do perfil github
+$ git commit "primeiro arquivo"
+$ git commit -m "primeiro arquivo"
+$ git push
+
+
